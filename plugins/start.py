@@ -140,8 +140,8 @@ async def start_command(client: Client, message: Message):
         else:
             verify_status = await get_verify_status(id)
             if IS_VERIFY and not verify_status['is_verified']:
-                short_url = f"api.publicearn.com"
-                full_tut_url = f"https://t.me/BJPtutorials/6"
+                short_url = f"api.instanearn.in"
+                full_tut_url = f"https://t.me/sotutorials/8"
                 token = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
                 await update_verify_status(id, verify_token=token, link="")
                 link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API,f'https://telegram.dog/{client.username}?start=verify_{token}')
