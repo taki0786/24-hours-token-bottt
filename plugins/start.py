@@ -140,7 +140,7 @@ async def start_command(client: Client, message: Message):
         else:
             verify_status = await get_verify_status(id)
             if IS_VERIFY and not verify_status['is_verified']:
-                short_url = f"api.instanearn.in"
+                short_url = f"api.instantearn.in"
                 full_tut_url = f"https://t.me/sotutorials/8"
                 token = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
                 await update_verify_status(id, verify_token=token, link="")
