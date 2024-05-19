@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","sotutorials")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002088534303 1002118749159"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002118749159"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -65,7 +65,8 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "BOT CHANNEL 👉 @Publicfille FOR MORE UPDATE !!"
+USER_REPLY_TEXT = "❌ Don't send me messages directly I'm only File Share bot !
+👨‍💻 Bot Devloper @zorosan110< >"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6763245675)
